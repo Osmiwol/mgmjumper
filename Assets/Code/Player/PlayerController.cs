@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
         JumpPower = 0;
         _jumpDirection = 0;
         DirectionShower.transform.position  = JumpTarget.transform.position = transform.position;
-        spriteRendDirectionShower.color = spriteRendPlayer.color = new Color(1, 1, 1, 1);
+        spriteRendDirectionShower.color = spriteRendPlayer.color = new Color(1, 1, 1, 1);//
          
         currentRedColor = 0;
     }
